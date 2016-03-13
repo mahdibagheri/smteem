@@ -317,105 +317,49 @@ This command will send text to [group_id]
 
 ]],
     help_text = [[
-Commands list :
+    #دستورات مدیریت اعضا
+ـــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــــ
+kick {username/id}
+حذف شخص از گروه با استفاده از ریپلی و یا ایدی یا نام کاربری
+ban {username/id}
+حذف بدون بازگشت شخص از گروه با استفاده از ریپلی یا ایدی یا نام کاربری
+unban {username/id}
+بیرون آوردن حذف بدون بازگشت شخص با استفاده از ریپلی یا ایدی یا نام کاربری
+promote {username}
+ادمین کردن شخصی در داخل گروه فقط با استفاده با نام کاربری
+demote [username]
+در آوردن از ادمینی شخصی در داخل گروه فقط با استفاده از نام کاربری
+Modlist
+دیدن لیست ادمین های گروه
+#دستورات مدیریت گروه
+ـــــــــــــــــــــــ
+lock {member/name/bots/leave}
+قفل {اعضا/نام گروه/ربات/خروج}
+Unlock {member/name/bots/leave}
+باز کردن {اعضا/نام گروه/ربات/خروج}
+Setphoto
+تنظیم و قفل عکس گروه
+setname {name}
+تنظیم نام گروه پس از نوشتن دستور اسم جدید گروه را بنویسید
+set rules [text]
+تنظیم قانون گروه پس از نوشتن دستور قانون جدید را بنویسید
+set about [text]
+تنظیم موضوع گروه پس از نوشتن دستور موضوع جدید گروه را بنویسید
+Newlink
+ساختن لینک جدید گروه
+link
+گرفتن لینک گروه
+setflood [value]
+حساسیت ضداسپم پس از نوشتن دستور تعداد پیام را بنویسید
+clean {modlist/rules/about}
+پاک کردن {لیست ادمین ها/قوانین/موضوع گروه}
+ــــــــــــــــــــ
+برای استفاده از دستورات بالا لازم به هیچ علامتی نیست
 
-!kick [username|id]
-You can also do it by reply
-
-!ban [ username|id]
-You can also do it by reply
-
-!unban [id]
-You can also do it by reply
-
-!who
-Members list
-
-!modlist
-Moderators list
-
-!promote [username]
-Promote someone
-
-!demote [username]
-Demote someone
-
-!kickme
-Will kick user
-
-!about
-Group description
-
-!setphoto
-Set and locks group photo
-
-!setname [name]
-Set group name
-
-!rules
-Group rules
-
-!id
-Return group id or user id
-
-!help
-Get commands list
-
-!lock [member|name|bots|leave] 
-Locks [member|name|bots|leaveing] 
-
-!unlock [member|name|bots|leave]
-Unlocks [member|name|bots|leaving]
-
-!set rules [text]
-Set [text] as rules
-
-!set about [text]
-Set [text] as about
-
-!settings
-Returns group settings
-
-!newlink
-Create/revoke your group link
-
-!link
-Returns group link
-
-!owner
-Returns group owner id
-
-!setowner [id]
-Will set id as owner
-
-!setflood [value]
-Set [value] as flood sensitivity
-
-!stats
-Simple message statistics
-
-!save [value] [text]
-Save [text] as [value]
-
-!get [value]
-Returns text of [value]
-
-!clean [modlist|rules|about]
-Will clear [modlist|rules|about] and set it to nil
-
-!res [username]
-Returns user id
-
-!log
-Will return group logs
-
-!banlist
-Will return group ban list
-
-برای استفاده از دستورات بالا از ! و / استفاده کنید
 برای گرفتن گروه و یا ادمین شدن بات به ایدی زیر مراجعه فرمایید
 @mahdimp3
 @its_mpa
+@mr_mh85
 
 ]]
   }
